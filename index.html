@@ -1,0 +1,437 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkat Reddy Cherkupalli - Portfolio</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #003366; /* Google Blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position:relative ;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 10px 0;
+        }
+        header nav{
+            width: 90%;
+        }
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            vertical-align: middle;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transform-style: preserve-3d;
+            backface-visibility: hidden;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #003366  ; /* Darker Google Blue on hover */
+        }
+
+        /* Profile photo styles */
+        <!-- .profile-photo {
+            width: 10%;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            opacity: 0.9; /* Faded look */
+            transition: transform 0.5s ease-in-out;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+        } -->
+
+
+        .profile-photo:hover {
+            transform: rotateY(180deg);
+        }
+
+        /* Section styles */
+        section {
+            background-color: #ffffff;
+            padding: 50px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transform-style: preserve-3d;
+            backface-visibility: hidden;
+            transition: transform 0.5s ease;
+        }
+
+        section:hover {
+            transform: rotateY(5deg);
+        }
+
+        section h2 {
+            color: #003366; /* Google Blue */
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        
+             /* Footer styles */
+        footer {
+            background-color: #003366; /* Google Blue */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            z-index: 0;
+        }
+
+        /* Footer hover effect */
+        footer:hover::before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.JPG" alt="Profile Photo" class="profile-photo">
+        <h1>Venkat Reddy Cherkupalli</h1>
+        <nav>
+            <ul>
+                <li><a href="#Contact">Contact Information</a></li>
+                <li><a href="#Personal">Personal Information</a></li>
+                <li><a href="#Education">Educational Background</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">projects</a></li>
+                <li><a href="#Experience">Work Experience</a></li>
+                <li><a href="#Activities">Activities</a></li> 
+                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a href="#Highlights">Highlights</a></li>
+                <li><a href="#Certificates">Certificates</a></li>
+                <li><a href="#AwardsandAchievments">Awards and Achievments</a></li>
+                <li><a href="#Declaration">Declaration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="intro">
+        <div class="container">
+            <h2>Introduction</h2>
+            <h3 >Hello..!</h3>
+            <p> Whether you're a recruiter, colleague, or fellow tech enthusiast,
+                 I'm excited to share my journey, projects, and achievements with you. 
+                 I am a highly skilled Computer Science professional with a solid foundation in software development, 
+                 data analytics, and emerging technologies.
+            </p>
+            <p>
+                 I hold a Bachelor of Technology in Electronics and Communication Engineering from 
+                 <a href="https://www.sreedattha.ac.in/" target="_blank" >Sree Dattha Institute of Engineering and Science</a> 
+                 (affiliated with <a href="https://jntuh.ac.in/" target="_blank">Jawaharlal Nehru Technological University Hyderabad</a> 
+                 and a Master of Science in Computer and Information Systems from the <a href="https://www.southalabama.edu/" target="_blank">University of South Alabama</a>, 
+                 where I achieved a GPA of 3.67 out of 4. 
+                 My academic performance reflects my dedication and enthusiasm for learning.
+            </p>
+            <p> My expertise spans a range of programming languages including C, Java, Python, C#, and JavaScript. 
+                I am also proficient in various development tools and environments such as 
+                Eclipse, Spring Tool Suite, Visual Studio, and Visual Studio Code. 
+                I am passionate about leveraging my knowledge and skills to drive innovation and achieve results.
+            </p>
+            <!-- Include more sections of your introduction as needed -->
+        </div>
+    </section>
+    <section id="Contact">
+        <h2>Contact Information</h2>
+        <p>
+            <strong>Email:</strong> Venkatreddy.0797@gmail.com<br>
+            <strong>Phone:</strong> +1(251)-373-5877<br>
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/venkatreddy-v33/"> Click here</a> <br>
+            <strong>Mailing Address:</strong> 
+        </p>
+    </section>
+    <section id="Personal">
+        <h2>Personal Information</h2>
+        <p>
+            <strong>Date of Birth:</strong> 07/11/1997 (mm/dd/yyyy)<br>
+            <strong>Citizenship:</strong> Indian<br>
+            <strong>Country of Residence:</strong> USA<br>
+            <strong>Visa Status:</strong> OPT-EAD<br>
+            <strong>Spoken Languages:</strong> English, Hindi, Telugu
+        </p>
+    </section>
+    <section id="Education">
+        <h2>Educational Background</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>School/University</th>
+                <th>Year of Passing</th>
+                <th>GPA & Scale</th>
+            </tr>
+            <tr>
+                <td>SSC (Highschool)</td>
+                <td>Hayathnagar Public School</td>
+                <td>2014</td>
+                <td>9.0 of 10</td>
+            </tr>
+            <tr>
+                <td>Intermediate/+2</td>
+                <td>Narayana Junior College</td>
+                <td>2016</td>
+                <td>9.0 of 10</td>
+            </tr>
+            <tr>
+                <td>Bachelor of Technology in Electronics and Communication Engineering</td>
+                <td>Sree Dattha Institute of Engineering and Science</td>
+                <td>2020</td>
+                <td>7.0 of 10</td>
+            </tr>
+            <tr>
+                <td>Master of Science in Computer and Information Systems</td>
+                <td>University of South Alabama</td>
+                <td>2023</td>
+                <td>3.67 of 4.0</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages:  C, Java, Python, HTML, C#, SQL, JavaScript.</li>
+            <li>Frameworks and Libraries:   Spring Core, Spring boot, Hibernate, Spring MVC, ReactJS, AngularJS, Django, Flask, Microservices.</li>
+            <li>IDE:    Eclipse, Jupyter Notebook, Visual Studio Code, PyCharm, Arduino IDE, Spring Tool Suite, MySQL Workbench, PostMaster.</li>
+            <li>Tools:  Docker, Maven, Jira, Git.</li>
+            <li>Databases:  MySQL, MS SQL Server, MongoDB.</li>
+            <li>Cloud Platforms:    AWS.</li>
+        </ul>
+    </section>
+
+    <section id="Projects">
+        <h2>Projects</h2>
+        <h3>Web Application.</h3>
+        <ol>
+            <li>
+            <h4>Car Service Web Application</h4> <a href="https://github.com/VenkatReddyCherkupall/CarService" target="_blank">GitHub link</a>
+                <p><strong>Course:</strong> ISC-559-App Design and Implementation (University of South Alabama).</p>
+                <p><strong>Description:</strong>This web application, developed using C# and the ASP.NET MVC framework, 
+                    is designed for a car service center. It allows mechanics to manage and maintain records related to car maintenance.
+                     When a car requires servicing, it is brought to the nearest service center where the application is used to 
+                     record details about the car, the customer, and the parts used during maintenance.
+                      The application features CRUD (Create, Read, Update, Delete) capabilities, enabling mechanics to efficiently update,
+                       view, create, and delete records. The backend is powered by MS SQL Server, ensuring robust data management and
+                        storage.</p>
+                <p><strong>Skills:</strong> C#, ASP.NET MVC, MS SQL Server, JavaScript, HTML. </p>
+            </li>
+            <li>
+                <h4>Murphy High School Reunion</h4> <a href="https://github.com/VenkatReddyCherkupall/MHSAlumni" target="_blank">GitHub link</a>
+                <p><strong>Course: </strong> ISC-567-501: IS Function Integration (University of South Alabama).</p>
+                <p><strong>Description:</strong>This web application is developed using C# and the ASP.NET MVC framework.
+                    It is designed for the Murphy High School alumni reunion in Mobile, Alabama, celebrating 100 years.
+                    Alumni must create an account to access the application and register for reunion events.
+                    Additionally, they can subscribe to school newsletters and other updates.
+                    The application allows users to add and manage their details with full CRUD 
+                    (Create, Read, Update, Delete) capabilities.  </p>
+                <p><strong>Skills:</strong> C#, ASP.NET MVC, MS SQL Server, JavaScript, HTML. </p>
+            </li>
+        </ol>
+        <h3>Data Base.</h3>
+        <ol>
+            <li>
+                <h4>Data Base and Management </h4> <a href="https://github.com/VenkatReddyCherkupall/DataBase-Script" target="_blank">GitHub link</a>
+                <p><strong>Course:</strong> ISC-561: IS Database Management (University of South Alabama).</p>
+                <p><strong>Description:</strong> The SQL script creates a comprehensive database for a handyman service business. 
+                    It sets up tables to capture key information such as company details, customer data, invoices, service descriptions,
+                     and contractor information, ensuring data integrity through well-defined relationships.
+                     The schema supports efficient data management and operational effectiveness.
+                    After table creation, the script inserts sample data to demonstrate practical usage.
+                     This data includes records for the company, customers, contractors, and service types, with transactions
+                      and error handling to maintain consistency and address potential issues.                    
+                    Overall, the script provides a solid foundation for managing various aspects of the handyman business,
+                     from tracking services and customers to handling invoices. It ensures a well-structured database that enhances business operations and efficiency.
+                    </p>
+                <p><strong>Skills:</strong> Ms SQL Server, Normalization, Anomolies.</p>
+           </li>
+            <li>
+                <h4>Health Data Management System </h4> <a href="https://github.com/VenkatReddyCherkupall/Health-Data-Management-and-Support" target="_blank">GitHub link</a>
+                <p><strong>Course:</strong> ISC 555: Health Data Management and Decision Support (University of South Alabama).</p>
+                <p><strong>Description:</strong> I designed and implemented Electronic Medical Record (EMR) systems and 
+                    Clinical Decision Support Systems (CDSS), focusing on the creation and maintenance of Electronic Health Records (EHR)
+                     software. My work involved developing efficient medical record systems by addressing architectural components,
+                      technical design issues, and overall management. The EHR system was developed using MS Access and its database tools.
+                    In designing clinical decision support systems, I concentrated on defining decision support roles,
+                     extracting valuable information from data, and adhering to legal and regulatory restrictions,
+                      including HIPAA regulations. Ensuring compliance with these regulations was crucial for maintaining the privacy
+                       and security of patient information.
+                    I also created and managed a database, using SQL to retrieve and manipulate data effectively. 
+                    This was essential for supporting the functionality of the CDSS and ensuring accurate, useful information
+                     for clinical decision-making.</p>
+                <p><strong>Skills:</strong> Ms Access</p>
+            </li>
+        </ol>
+
+    </section>
+    
+    <section id="Experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Associate Software Engineer at <a href="https://shiftit.in/" target="_blank">ShiftIT Solutions</a>-   HYD, INDIA. (Nov 2020 - Dec 2021)
+                <p>
+                    Involved in various stages of Enhancements in the Application by doing the required analysis, 
+                    development, and testing. Designed and implemented scalable applications using Java and
+                     frameworks like Spring Boot, ensuring high performance and maintainability. 
+                     Created RESTful web services using Java, enabling seamless integration with other systems, 
+                     and providing reliable data exchange. Worked in Agile environments, contributing to sprint planning, 
+                     daily stand-ups, and retrospectives to ensure timely delivery and quality outcomes. 
+
+                </p>
+            </li>
+            
+            <li>Call Tester at <a href="https://synapsiq.com/" target="_blank">SynapsIQ</a>- Michigan,USA. (July 2024 - Present)</li>
+            <p>Travel to customer locations and field sites to calibrate the test phone in Engineering mode to the desired band.
+                 Perform PSAP and 911 calls as requested by the client, and conduct Okla testing for throughput checks. 
+                 Update the team with the test results and demonstrate knowledge in troubleshooting PCI latching issues.
+                  Coordinate with the concerned teams for resolution and operate independently with minimal supervision.</p>
+        </ul>
+    </section>
+
+
+    <section id="Hobbies">
+        <h2>Hobbies and Interests</h2>
+        <p>
+            <strong>Sports:</strong> Book reading, Video Games, Badminton, Vollyball, Cricket, Chess.<br>
+        </p>
+    </section>
+
+    <!-- <section id="highlights">
+        <h2>Information Highlights</h2>
+        <ul>
+           
+        </ul>
+    </section> -->
+    <section id="Activities">
+        <h2>Extra Ciricular Activities</h2>
+        <ul>
+           <li>Worked as a volunter at Kalam Center and Yuva Thirang. As a Kalam Center volunteer, I educate, fund libraries, and guide 200+ students in values.</li> <a href="https://www.linkedin.com/in/venkatreddy-v33/overlay/1721522025529/single-media-viewer/?profileId=ACoAACXpNw8BlrL7e3Xw2lfHdhR8Rsu0XgEdFjw">Show Certificate</a>
+        </ul>
+    </section>
+    <section id="Certificates">
+        <h2>Certificates</h2>
+        <ul>
+        <li>Issued by Google: Introduction to Generative AI. (Issued August 2023)</li> <a href="https://coursera.org/share/145fd3f59882d99eed3b1d111cd5141b" target="_blank" alt="Introduciton to Generative AI Ceritficate">Show Certificate</a><br>
+        <li>Issued by CITI Program: Physical Science Responsible Conduct of Research. (Issued June 2023)</li> <a href="https://www.citiprogram.org/verify/?w8408fcf8-b634-4271-98ea-bc803247b7d6-56283239" target="_blank">Show Certificate</a>
+        <li>Issued by Research Foundation of India (RFI): Innovative Research in Engineering, Applied Science and Management. (IC- IREASM-2019) (Issued October 2019)</li><a href="https://www.linkedin.com/in/venkatreddy-v33/details/certifications/1721522667607/single-media-viewer/?profileId=ACoAACXpNw8BlrL7e3Xw2lfHdhR8Rsu0XgEdFjw">Show Certificate</a>
+        <li>Issued by ORL Industries and Crave International: Ideathon. (Issued January 2019)</li><a href="https://www.linkedin.com/in/venkatreddy-v33/details/certifications/1721522884321/single-media-viewer/?profileId=ACoAACXpNw8BlrL7e3Xw2lfHdhR8Rsu0XgEdFjw">Show Certificate</a>
+        </ul>
+    </section>
+
+    <section id="AwardsandAchievments">
+        <h2>Awards and Achievments</h2>
+        <ul>
+           <li> Won the First price in Ideathon Conducted in Sree Dattha Institute of Engineering and Science and ORL Industires. (Issued January 2019) </li> <a href="https://www.linkedin.com/in/venkatreddy-v33/overlay/1721586568997/single-media-viewer/?profileId=ACoAACXpNw8BlrL7e3Xw2lfHdhR8Rsu0XgEdFjw">Show Certificate</a>
+        </ul>
+    </section>
+    
+
+    <section id="declaration">
+        <h2>Declaration</h2>
+        <p>I, Venkat Reddy Cherkupalli, hereby certify that the information presented on this portfolio website is accurate 
+            and truthful, genuinely reflecting my skills, experiences, and accomplishments.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Venkat Reddy Cherkupalli</p>
+	<ul class="social-icons">
+        <li><a href="https://www.instagram.com/v_e_n_k_i_11/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram"></a></li>
+        <li><a href="https://www.linkedin.com/in/venkatreddy-v33/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="https://x.com/venkatreddych2" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.facebook.com/venkatreddy.cherkupalli/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" alt="Facebook"></a></li>
+        <li><a href="https://github.com/VenkatReddyCherkupall" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub"></a></li>
+    </ul>
+    </footer>
+    <style>
+        /* CSS to style the social icons list */
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+    
+        .social-icons li {
+            display: inline-block;
+            margin-right: 10px; /* Adjust margin as needed */
+        }
+    
+        .social-icons li:last-child {
+            margin-right: 0; /* Remove margin from the last icon */
+        }
+    </style>
+    <script>
+        // Smooth scrolling functionality for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
